@@ -1,0 +1,26 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.profile {
+  /* align-self: center; */
+  width: 50%;
+  border-radius: 50%;
+}
+
+.btn {
+  border-style: none;
+}
