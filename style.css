@@ -1,26 +1,74 @@
 body {
-  padding: 0;
-  margin: 0;
+  padding: o;
   box-sizing: border-box;
   border-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: hsl(0, 0%, 8%);
+  font-family: 'Inter', 'sans-serif';
+  color: white;
+  margin: 10%;
 }
 
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 250px;
+  /* width: 320px; */
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 8px;
+  padding: 20px;
 }
 
 .profile {
-  /* align-self: center; */
-  width: 50%;
+  width: 30%;
   border-radius: 50%;
+  margin: 20px;
+}
+
+h2 {
+  margin: 2px;
+  color: white;
+  font-weight: 700;
+}
+
+h5 {
+  margin: 8px;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  margin: 20px;
+  font-weight: 300;
 }
 
 .btn {
   border-style: none;
+  width: 90%;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  background: hsl(0, 0%, 20%);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Inter', 'sans-serif';
+}
+
+.btn:hover {
+  background-color: hsl(0, 1%, 36%);
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+.attribution {
+  align-self:  center;
+  margin: 30%;
 }
